@@ -8,7 +8,7 @@ Content Based Recommenders, Matrix Factorization.
 
 Tips -
 - Matrix Factorization doesn't work if data sets are large, CF perfoms better in these scenarios.
-- Content based approach require content that can be encoded as meaningful features. At the same time it doesn't face the problem of cold start and popularity bias. there is a risk of overrisk, if for a user data points are less.
+- Content based approach require content that can be encoded as meaningful features. At the same time it doesn't face the problem of cold start and popularity bias. there is a risk of overfitting, if for a user data points are less.
 
 Limitations of CF -
 - Cold Start: There needs to be enough users already in the system to find a match. New Items need to get enough ratings. clustering might help to solve cold start. 
